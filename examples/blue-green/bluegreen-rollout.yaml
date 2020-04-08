@@ -27,6 +27,7 @@ spec:
           requests:
             memory: 32Mi
             cpu: 5m
+  paused: false
   strategy:
     blueGreen:
       autoPromotionEnabled: false
