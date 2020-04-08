@@ -5,6 +5,7 @@ metadata:
   labels:
     app: bluegreen-demo
 spec:
+  paused: false
   replicas: 3
   revisionHistoryLimit: 1
   selector:
@@ -27,7 +28,6 @@ spec:
           requests:
             memory: 32Mi
             cpu: 5m
-  paused: true
   strategy:
     blueGreen:
       autoPromotionEnabled: false
