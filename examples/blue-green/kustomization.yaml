@@ -9,3 +9,6 @@ resources:
 - bluegreen-ingress.yaml
 - bluegreen-preview-service.yaml
 - bluegreen-preview-ingress.yaml
+images:
+- name: argoproj/rollouts-demo
+  newTag: red
