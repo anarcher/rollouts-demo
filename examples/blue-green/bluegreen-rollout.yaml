@@ -5,7 +5,6 @@ metadata:
   labels:
     app: bluegreen-demo
 spec:
-  paused: false
   replicas: 3
   revisionHistoryLimit: 1
   selector:
